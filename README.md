@@ -33,18 +33,18 @@ This project implements a distributed file system management system with a focus
     ```
 
 ## Usage
-    - Start the file system management system:
+   Start the file system management system:
         ```bash
         python src/file_system.py
         ```
 
-    - Run the I/O optimization and energy optimization modules:
+   Run the I/O optimization and energy optimization modules:
         ```bash
         python src/io_optimization.py
         python src/energy_optimization.py
         ```
 
-    - Use the benchmarking tools to measure performance:
+   Use the benchmarking tools to measure performance:
     ```bash
         python src/benchmark.py
         ```
