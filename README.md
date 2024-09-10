@@ -52,9 +52,6 @@ This project implements a distributed file system management system with a focus
     
    Access the web interface (if applicable) by navigating to http://localhost:5000.
 
-## Documentation
-For detailed documentation, see the docs/index.md file.
-
 ## Future Scope
 The current project provides a robust foundation for exploring advanced topics in storage, I/O, file systems, and energy optimization in HPC, Cloud, and Edge computing environments. Future enhancements and extensions include:
 
@@ -113,6 +110,9 @@ Throughout this project, significant learnings have been achieved in the followi
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Documentation
+For detailed documentation, see the docs/index.md file.
 
 ## Contact
 For questions or further discussions, please contact:
