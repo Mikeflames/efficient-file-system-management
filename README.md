@@ -42,6 +42,10 @@ This project implements a distributed file system management system with a focus
         python src/io_optimization.py  
         python src/energy_optimization.py
 
+   Run the Module for both Energy and I/O optimization:
+   
+        python src/energy_and_io_optimization.py  
+
    Use the benchmarking tools to measure performance:
    
         python src/benchmark.py
