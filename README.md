@@ -121,3 +121,9 @@ For detailed documentation, see the docs/index.md file.
 ## Contact
 For questions or further discussions, please contact:
    - Mishal Singhai [Email](mailto:mishalsinghai21032001@gmail.com)
+     
+## References
+- "Distributed Systems: Concepts and Design" by George Coulouris, Jean Dollimore, Tim Kindberg, and Gordon Blair
+- "High Performance Parallel I/O" by Prabhat, Suren Byna, et al.
+- Web-Resources
+
