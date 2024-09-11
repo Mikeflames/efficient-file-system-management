@@ -36,6 +36,10 @@ This project implements a distributed file system management system with a focus
    Start the file system management system:
      
      python src/file_system.py
+
+   Run the Computation_Energy_Simulation:
+   
+      python src/computational_energy_efficiency.py
         
    Run the I/O optimization and energy optimization modules:
    
