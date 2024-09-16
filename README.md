@@ -33,6 +33,11 @@ This project implements a distributed file system management system with a focus
     ```
 
 ## Usage
+   Data-Compression with Buffered I/O
+   
+      python src/data_compression_with_buffered_io.py
+      python src/data_compression_with_var_buffers.py
+      
    Start the file system management system:
      
      python src/file_system.py
