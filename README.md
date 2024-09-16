@@ -36,20 +36,25 @@ This project implements a distributed file system management system with a focus
    Start the file system management system:
      
      python src/file_system.py
+
+   Run the Computation_Energy_Simulation:
+   
+      python src/computational_energy_efficiency.py
         
    Run the I/O optimization and energy optimization modules:
    
         python src/io_optimization.py  
         python src/energy_optimization.py
 
+   Run the Module for both Energy and I/O optimization:
+   
+        python src/energy_and_io_optimization.py  
+
    Use the benchmarking tools to measure performance:
    
         python src/benchmark.py
     
    Access the web interface (if applicable) by navigating to http://localhost:5000.
-
-## Documentation
-For detailed documentation, see the docs/index.md file.
 
 ## Future Scope
 The current project provides a robust foundation for exploring advanced topics in storage, I/O, file systems, and energy optimization in HPC, Cloud, and Edge computing environments. Future enhancements and extensions include:
@@ -110,6 +115,15 @@ Throughout this project, significant learnings have been achieved in the followi
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Documentation
+For detailed documentation, see the docs/index.md file.
+
 ## Contact
 For questions or further discussions, please contact:
    - Mishal Singhai [Email](mailto:mishalsinghai21032001@gmail.com)
+     
+## References
+- "Distributed Systems: Concepts and Design" by George Coulouris, Jean Dollimore, Tim Kindberg, and Gordon Blair
+- "High Performance Parallel I/O" by Prabhat, Suren Byna, et al.
+- Web-Resources
+
