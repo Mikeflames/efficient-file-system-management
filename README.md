@@ -61,6 +61,20 @@ This project implements a distributed file system management system with a focus
     
    Access the web interface (if applicable) by navigating to http://localhost:5000.
 
+## Results for Data Compression with Buffered I/O :
+1. Buffer Size: 8.0 KB  (  A smaller buffer size can lead to more frequent disk I/O, while a larger buffer size may reduce disk access frequency but consume more memory.)
+2. Time Taken: 0.24 seconds  ( total time taken to compress the 100MB of data, LZ4 is a fast compression algorithm, known for both speed and energy efficiency, making this a good choice for your scenario)
+3. Initial CPU Usage: 0.0% | Final CPU Usage: 26.6%  ( compression and buffering consumed moderate CPU resources during execution. This rise shows that the CPU was engaged in both reading the data, compressing it, and managing the buffered I/O.
+4. Initial Memory Usage: 15.86 MB | Final Memory Usage: 15.99 MB (   The small increase in memory usage (from 15.86 MB to 15.99 MB) shows that buffered I/O and compression are memory-efficient. The buffer (8KB) and compression metadata have a minimal impact on memory consumption. )
+
+## Results for Data Compression with Variable Buffers :
+1. Compression with Buffered I/O  ( Buffer Size 4 KB, 8 KB, 16 KB, 32 KB) :-  The 8 KB buffer size seems to offer the most efficient compression, using significantly less CPU while maintaining a low processing time. Increasing the buffer size beyond 8 KB doesn't lead to significant performance gains in time, but it increases CPU usage.
+2. No Compression with Buffered I/O  (  Buffer Size 4 KB, 8 KB, 16 KB, 32 KB) :-  For non-compressed data, larger buffer sizes (32 KB) offer better performance in terms of time and CPU usage. The benefit of increasing buffer size is more pronounced here than with compression.
+
+By using these benchmarks, I can fine-tune the buffer size to align with my system's processing power, memory constraints, and the nature of the I/O workload.
+
+
+
 ## Future Scope
 The current project provides a robust foundation for exploring advanced topics in storage, I/O, file systems, and energy optimization in HPC, Cloud, and Edge computing environments. Future enhancements and extensions include:
 
